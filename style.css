@@ -1,0 +1,117 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #635ef2;
+  height: 50px;
+  align-content: center;
+}
+
+main {
+  height: 100vh;
+  background-color: #1e2159;
+  display: flex;
+}
+
+h2 {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  width: 560px;
+  height: 372px;
+  padding: 40px;
+  margin: auto;
+  gap: 16px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.card:hover .bar {
+  animation: bar-grow 5s ease forwards;
+}
+
+.heading {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #272b3f;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #272b3f;
+  margin-bottom: 16px;
+}
+
+.statistics {
+  padding: 13.67px 10px;
+}
+
+.language {
+  width: 57px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: right;
+  margin-right: 8px;
+  color: rgba(37, 43, 65, 0.64);
+}
+
+.data {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  margin-left: 4px;
+  color: rgba(37, 43, 65, 0.64);
+}
+
+.bar-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 11.53px;
+}
+
+.bar {
+  width: 1px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: rgba(26, 163, 103, 1);
+}
+
+.bar-py {
+  max-width: 267.83px;
+}
+
+.bar-js {
+  max-width: 360.07px;
+}
+
+.bar-c {
+  max-width: 86.91px;
+}
+
+.bar-sql {
+  max-width: 230.58px;
+}
+
+.bar-ruby {
+  max-width: 29.56px;
+}
+
+@keyframes bar-grow {
+  0%,
+  100% {
+    width: 1px;
+  }
+  50% {
+    width: 100%;
+  }
+}
